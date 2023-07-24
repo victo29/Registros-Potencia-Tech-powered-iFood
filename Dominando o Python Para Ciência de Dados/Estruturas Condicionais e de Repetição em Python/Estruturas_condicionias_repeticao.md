@@ -14,3 +14,13 @@
 
 ### if ternario 
 - Permite escrever uma condição em uma única linha. Ele é composto por três partes, a primeira parte é o retorno caso a expressão retorne verdadeiro, a segunda parte é a expressão lógica e a terceira parte é o retorno caso a expressão não seja atendida
+
+## Estruturas de repetição
+- São estruturas utilizadas para repitir um trecho de código um determinado número de vezes. Esse número pode ser conhecido previamente ou determinado através de uma expressão lógica.
+
+### Comando for
+- é usado para percorrer um objeto iterável. Faz sentido usar o "for" quando sabemoss o número exato de vezes que nosso bloco de código deve ser executado, ou quando queremos percorrer um objeto iterável
+- Função range, ela é usada para produzir uma sequência de números inteiros a partir de um ínicio para um fim. Ela recebe 3 argumentos: stop, start e step opcional
+
+### Comando while
+- Faz sentido utilizar o while quando não sabemos o número exato de vezes que nosso bloco de código deve ser xecutado
