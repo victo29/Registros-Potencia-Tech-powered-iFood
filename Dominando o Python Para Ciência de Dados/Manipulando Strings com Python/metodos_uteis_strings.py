@@ -1,4 +1,4 @@
-curso = "PytHoN"
+curso = "PytH oN"
 
 print(curso.upper()) #Transforma todos em maiúscula
 

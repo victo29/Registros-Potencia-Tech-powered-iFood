@@ -28,3 +28,7 @@
 
 ### Acesso aos dados
 - Para acessar os valores do Set é necessário convertelo para uma lista
+
+# Dicionário
+- É um conjunto não ordenado de pares chave:valor, onde as chaves são únicas em uma dada instância do dicionário. Dicionários são delimitados por chaves: {}, e contém uma lista de pares chave:valor separada por virgula
+- Dicionarios também podem ser aninhados
