@@ -42,4 +42,20 @@ _Parcial_, significa que não o dado pode ou não está relacionado a alguma das
 ### Regras
 - Exclusão em cascata
 - Entidade em superclasse => predicated-defined (definir o predicado)
-- Entidade em superclasse com total - 
+- Entidade em superclasse com total 
+
+## Hierárquias e rede de especialização
+- _Hirárquia de especialização_, uma subclasse só pode fazer parte de uma superclasse
+- _Rede de especialização_, Uma subclasse pode está relacionada a mais de uma superclasse ou subclasse. Herança mútipla
+
+## Modelagem de Union Types usando Categorias
+- Coleçã de objetos de diferentes tipos de entidades
+- Representação: subclasse
+- Refletir uma visão de entidades diferentes
+- Por exemplo, entre duas entidades fortes (carro e caminhão) eu consigo refletir qual o veículo registrado com o union type
+- Union type parcial (||) ou total (|) que contem o mesmo conceito que os outros
+
+### Generalização e Especialização X Union Type/Categorização
+- Generalização e Especialização estão lidando com o mesmo tipo de entidade, pertencem ao mesmo grupo
+- O uso de union types para modelar categoria é diferente porque ela traz diversos tipos de entidades
+
